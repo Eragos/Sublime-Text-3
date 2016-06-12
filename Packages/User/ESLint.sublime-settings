@@ -1,0 +1,13 @@
+// In order to tweak the settings, you should NOT edit this file, but instead
+// the user-specific, empty-by-default version under
+// "Preferences / Package Settings / ESLint / Settings - User".
+//
+// See ESLint' README for detailed instructions.
+{
+  // Where your `node` executable lives. If this is not specified, then
+  // it is expected to be on Sublime's environment path.
+  //
+  // On OSX, for example:
+  // "/usr/local/bin"
+  "node_path": "/usr/local/bin/node"
+}

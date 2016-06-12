@@ -1,0 +1,38 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Automatic Backups",
+		"Browser Refresh",
+		"Color Highlighter",
+		"Compare Side-By-Side",
+		"Console Wrap for js",
+		"DashDoc",
+		"DataConverter",
+		"Gutter Color",
+		"Hungry Backspace",
+		"Inc-Dec-Value",
+		"JavaScript Console",
+		"JavaScript Ultimate",
+		"jQuery",
+		"JSCS-Formatter",
+		"Keymaps",
+		"Package Control",
+		"rsub",
+		"SideBarEnhancements",
+		"Sublime-KnockoutJS-Snippets",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-csslint",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeLinter-php",
+		"Theme - Cobalt2",
+		"Web Inspector"
+	]
+}
