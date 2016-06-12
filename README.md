@@ -7,7 +7,7 @@ This is my Sublime Text 3 configuration.
 Quit Sublime Text 3.
 
     $ rm -rf ~/Library/Application \Support/Sublime\ Text\ 3
-    $ git clone https://github.com/soffes/sublime.git ~/Library/Application\ Support/Sublime\ Text\ 3
+    $ git clone https://github.com/Eragos/Sublime-Text-3.git ~/Library/Application\ Support/Sublime\ Text\ 3
 
 Open Sublime Text 3. Enjoy.
 
