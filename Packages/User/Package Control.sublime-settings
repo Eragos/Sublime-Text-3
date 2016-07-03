@@ -12,6 +12,7 @@
 		"Console Wrap for js",
 		"DashDoc",
 		"DataConverter",
+		"GitHub Flavored Markdown Preview",
 		"GitSavvy",
 		"Gutter Color",
 		"Hungry Backspace",
@@ -35,6 +36,7 @@
 		"SublimeLinter-php",
 		"Sublimerge Pro",
 		"Theme - Cobalt2",
+		"Trimmer",
 		"Web Inspector"
 	]
 }
