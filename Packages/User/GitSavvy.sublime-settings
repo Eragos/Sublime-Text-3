@@ -28,6 +28,15 @@
     "dev_mode": false,
 
     /*
+        A list of tags (subsystems) to filter the output of debug.trace().
+        Only takes its effect when "dev_mode" is set to `true`.
+     */
+    "dev_trace": [
+        "debug",
+        "reload"
+    ],
+
+    /*
         Enter your github API key in the field below.  To interact with
         a GitHub Enterprise instance, add a field with the FQDN as the key
         and the API key as the value.
@@ -46,7 +55,7 @@
         Change this to `true` to scroll to the first hunk automatically when
         you open the inline-diff view.
      */
-    "inline_diff_auto_scroll": false,
+    "inline_diff_auto_scroll": true,
 
     "colors": {
         /*
@@ -129,12 +138,12 @@
     /*
         Set this to `true` to display remotes in the branch dashboard by default.
      */
-    "show_remotes_in_branch_dashboard": true,
+    "show_remotes_in_branch_dashboard": false,
 
     /*
         Set this to `true` to display remotes in the tags dashboard by default.
      */
-    "show_remotes_in_tags_dashboard": true,
+    "show_remotes_in_tags_dashboard": false,
 
     /*
         When set to `true`, GitSavvy will offer to set the upstream on `git: push`
@@ -247,5 +256,23 @@
         problems because of this, feel free to turn this setting off, and the
         descriptions will not be displayed.
      */
-    "enable_branch_descriptions": true
+    "enable_branch_descriptions": true,
+
+    /*
+        When set to `true`, GitSavvy will become Vintagoues friendly.
+        You might need to restart Sublime in order to get this working.
+     */
+    "vintageous_friendly": false,
+
+    /*
+        When set to `true`, all views will start in INSERT mode.
+        Ignored if `vintageous_friendly` is `false`.
+     */
+    "vintageous_enter_insert_mode": false,
+
+    /*
+        When set to `true`, all views will hide their help menu when rendering.
+        You can still toggle the help menu by pressing `?`.
+     */
+    "hide_help_menu": false
 }
