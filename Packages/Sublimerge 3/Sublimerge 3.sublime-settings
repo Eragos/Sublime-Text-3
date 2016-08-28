@@ -184,6 +184,10 @@
     //Set to null for color from current color scheme.
     "summary_panel_background": null,
 
+    //The renderer to be used to draw changes. Possible values:
+    // - "gutter" - renders using gutter icons. Elegant and detailed but a little slower than "outline"
+    // - "outline" - renders using outlines around text. Less elegant and readable but faster than "gutter"
+    "diff_block_renderer": "gutter",
 
     //DIFF BLOCK COLORS ///////////////////////////////////////////////////////////////////////////////
 
@@ -202,10 +206,14 @@
     //color when changes are conflicting with each other
     "diff_block_conflict": "#FF0000",
 
-    //fill color for intraline changes marks. If diff_block_draw_outlined is false, consider setting
-    //this value to other color than for diff_block_changed. Otherwise intraline changes will not be
-    //visible.
-    "diff_block_intraline": "#FDECAC",
+    //fill color for intraline changes marks (changed)
+    "diff_block_intraline_changed": "#FDECAC",
+
+    //fill color for intraline changes marks (inserted)
+    "diff_block_intraline_inserted": "#FDECAC",
+
+    //fill color for intraline changes marks (deleted)
+    "diff_block_intraline_deleted": "#FDECAC",
 
     //Ooutline color for selected difference.
     //Set to 'auto' and the color will be taken from the first line in block.
@@ -230,6 +238,12 @@
 
 
     //VERSION CONTROL SYSTEMS SUPPORT /////////////////////////////////////////////////////////////////
+
+    //Sometimes the underlying VCS requires some environment variables to be set. This is the place
+    //where you can define them.
+    "environment": {
+        //"NAME": "value"
+    },
 
     //Whether enable Git, Mercurial and SVN support. Affects availability of VCS-related commands.
     "vcs_support": true,

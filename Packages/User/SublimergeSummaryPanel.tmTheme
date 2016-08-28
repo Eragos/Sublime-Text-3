@@ -467,7 +467,29 @@
 	
 		<dict>
 			<key>scope</key>
-			<string>sublimerge.diff_block_intraline</string>
+			<string>sublimerge.diff_block_intraline_changed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FDECAC</string>
+			</dict>
+		</dict>
+
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_intraline_inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FDECAC</string>
+			</dict>
+		</dict>
+
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_intraline_deleted</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
