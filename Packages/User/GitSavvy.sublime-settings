@@ -138,7 +138,7 @@
     /*
         Set this to `true` to display remotes in the branch dashboard by default.
      */
-    "show_remotes_in_branch_dashboard": false,
+    "show_remotes_in_branch_dashboard": true,
 
     /*
         Set this to `true` to display remotes in the tags dashboard by default.
