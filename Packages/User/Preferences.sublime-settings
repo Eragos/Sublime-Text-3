@@ -28,6 +28,7 @@
 	"ignored_packages":
 	[
 		"Color Highlighter",
+		"CSS",
 		"JavaScript",
 		"SFTP",
 		"SublimeCodeIntel",
